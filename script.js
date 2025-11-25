@@ -20,24 +20,24 @@ async function   getData(city) {
    document.querySelector(".Wind").innerHTML=data.wind.speed +" km/h";
 
    if(data.weather[0].main=="Clouds"){
-    weathericon.src="/images/clouds.png";
+    weathericon.src="https://brajeshbhagbole.github.io/wea/images/clouds.png";
    } else if(data.weather[0].main=="Clear"){
-    weathericon.src="/images/clear.png";
+    weathericon.src="https://brajeshbhagbole.github.io/wea/images/clear.png";
    }
    else if(data.weather[0].main=="Rain"){
-    weathericon.src="/images/rain.png";
+    weathericon.src="https://brajeshbhagbole.github.io/wea/images/rain.png";
    }
    else if(data.weather[0].main=="Drizzle"){
     weathericon.src="https://brajeshbhagbole.github.io/wea/images/drizzle.png";
    }
    else if(data.weather[0].main=="Mist"){
-    weathericon.src="https://brajeshbhagbole.github.io/wea/images/drizzle.png" ;
+    weathericon.src="https://brajeshbhagbole.github.io/wea/images/mist.png" ;
    }
     else if(data.weather[0].main=="Wind"){
-    weathericon.src="/images/wind.png";
+    weathericon.src="https://brajeshbhagbole.github.io/wea/images/wind.png";
    }
     else if(data.weather[0].main=="Snow"){
-    weathericon.src="/images/snow.png";
+    weathericon.src="https://brajeshbhagbole.github.io/wea/images/snow.png";
    }
     else if(data.weather[0].main=="humidity"){
     weathericon.src="https://brajeshbhagbole.github.io/wea/images/humidity.png" ;
@@ -47,6 +47,7 @@ async function   getData(city) {
 searchbtn.addEventListener("click",()=>{
 getData(searchbox.value);
 })
+
 
 
 
