@@ -59,11 +59,11 @@ body{
     gap: 8px;        /* thoda gap kam */
   }
 
-  #search input {
-    height: 45px;
-    font-size: 16px;
-    padding: 8px 15px;
-  }
+ #search input {
+  height: 2.8rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
 
   #search button {
     width: 45px;
@@ -107,6 +107,7 @@ body{
     margin-top: -6px;
 
 }
+
 
 
 
