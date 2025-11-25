@@ -21,35 +21,38 @@ body{
     padding: 40px 35px;
     text-align: center;
 }
-#search{
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+#search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;     /* space-between ki jagah gap use karo */
 }
-#search input{
-     border: 0;
-     outline: 0;
-     background:  #ebfffc;
-     color: #555;
-     padding: 10px 25px;
-     height: 60px 30px;
-     border-radius: 30px;
-     flex:1;
-     margin-right: 16px;
-     font-size: 18px;
 
+#search input {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 10px 20px;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  font-size: 18px;
 }
-#search button{
 
-     border: 0;
-     outline: 0;
-     background:  #ebfffc;
-    width: 60px;
-     height: 60px;
-     border-radius: 50%;
-     cursor: pointer;
+#search button {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
 }
+
+
+/* ---------------- MOBILE VIEW ----------------- */
+
 @media (max-width: 480px) {
 
   #search {
@@ -63,14 +66,8 @@ body{
   }
 
   #search button {
-    width: 50px;
-    height: 50px;
-  }
-}
-@media (max-width: 370px) {
-  #search button {
-    width: 90px;
-    height: 90px;
+    width: 45px;
+    height: 45px;
   }
 }
 #search button img{
@@ -110,6 +107,7 @@ body{
     margin-top: -6px;
 
 }
+
 
 
 
