@@ -53,10 +53,10 @@ body{
 @media (max-width: 480px) {
 
   #search-button {
-     width: 95px;
-     height: 95px;
+     width: 55px;
+     height: 55px;
      border-radius: 50%;
-     background: #ebfffc;
+     background: none;
      border: 0;
      outline: 0;
        cursor: pointer;
@@ -100,4 +100,5 @@ body{
     margin-top: -6px;
 
 }
+
 
