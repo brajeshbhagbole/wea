@@ -39,14 +39,15 @@ async function   getData(city) {
     else if(data.weather[0].main=="Snow"){
     weathericon.src="/images/snow.png";
    }
-    else if(data.weather[0].main=="Mist"){
-    weathericon.src="/images/humidity.png";
+    else if(data.weather[0].main=="humidity"){
+    weathericon.src="https://brajeshbhagbole.github.io/wea/images/humidity.png" ;
    }
 }
 
 searchbtn.addEventListener("click",()=>{
 getData(searchbox.value);
 })
+
 
 
 
