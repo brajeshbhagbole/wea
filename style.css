@@ -52,16 +52,20 @@ body{
 }
 @media (max-width: 480px) {
 
-  #search-button {
-     width: 55px;
-     height: 55px;
-     border-radius: 50%;
-     background: none;
-     border: 0;
-     outline: 0;
-       cursor: pointer;
+  #search {
+    gap: 8px;        /* thoda gap kam */
   }
 
+  #search input {
+    height: 45px;
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+
+  #search button {
+    width: 45px;
+    height: 45px;
+  }
 }
 #search button img{
     width: 16px;
@@ -100,5 +104,6 @@ body{
     margin-top: -6px;
 
 }
+
 
 
