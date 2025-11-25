@@ -45,9 +45,10 @@ async function   getData(city) {
 }
 
 searchbtn.addEventListener("click",()=>{
-     if(value!==""){
+     if(searchbox.value!==""){
 getData(searchbox.value);}
 })
+
 
 
 
