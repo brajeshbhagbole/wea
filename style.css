@@ -50,7 +50,18 @@ body{
      border-radius: 50%;
      cursor: pointer;
 }
+@media (max-width: 480px) {
 
+  #search-button {
+     width: 75px;
+     height: 75px;
+     border-radius: 50%;
+     background: #ebfffc;
+     border: 0;
+     outline: 0;
+  }
+
+}
 #search button img{
     width: 16px;
 }
@@ -86,4 +97,5 @@ body{
 .humidity,.Wind{
     font-size: 28px;
     margin-top: -6px;
+
 }
