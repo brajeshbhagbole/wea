@@ -28,10 +28,10 @@ async function   getData(city) {
     weathericon.src="/images/rain.png";
    }
    else if(data.weather[0].main=="Drizzle"){
-    weathericon.src="/images/drizzle.png";
+    weathericon.src="https://brajeshbhagbole.github.io/wea/images/drizzle.png";
    }
    else if(data.weather[0].main=="Mist"){
-    weathericon.src="/images/humidity.png";
+    weathericon.src="https://brajeshbhagbole.github.io/wea/images/drizzle.png" ;
    }
     else if(data.weather[0].main=="Wind"){
     weathericon.src="/images/wind.png";
@@ -47,4 +47,5 @@ async function   getData(city) {
 searchbtn.addEventListener("click",()=>{
 getData(searchbox.value);
 })
+
 
